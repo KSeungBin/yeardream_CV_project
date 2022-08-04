@@ -3,11 +3,14 @@
 
 
 ### Context
+---
+
 
 
 ### Content
+---
 data split|# of original images|# of images after augmentation 
-|:-----:|:----:||:----:|
+|:-----:|:----:||:----:
 train(image + label)|78|-
 validation(image+label)|10|-
 test(image+label)|9|-
