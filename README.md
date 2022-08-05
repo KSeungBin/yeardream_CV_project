@@ -15,18 +15,21 @@
       
 ### Content
 ---
-1. dataset structure
+***1. dataset structure***
+
 data split|# of original images|# of images using elastic deformations
 |:-----:|:----:|:----:
 train(image + label)|78|-
 validation(image+label)|10|-
 test(image+label)|9|-
 
-2. Overview of files
-[]DoubleUNet.py : Define custom U-Net model
-[]unet(elastic_deformation).ipynb : live lecture material
-[]semantic_segmentation_multi_class.ipynb : online course material
-[]DoubleUNet.ipynb : work result
+
+
+***2. Overview of files***
+- [x] DoubleUNet.py : Define custom U-Net model  
+- [x] unet(elastic_deformation).ipynb : live lecture material  
+- [x] semantic_segmentation_multi_class.ipynb : online course material  
+- [ ] DoubleUNet.ipynb : work result  
   
   
 ### Require an amendments
