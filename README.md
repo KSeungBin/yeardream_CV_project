@@ -11,8 +11,9 @@
 
 
 ***2. class***
-    - 1 : air         (RED)
-    - 0 : background  (BLACK)
+
+    - 1 : air         (RED)  
+    - 0 : background  (BLACK)  
       
   
       
