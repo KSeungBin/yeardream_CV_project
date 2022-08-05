@@ -39,7 +39,7 @@ test(image+label)|9|-
 - [ ] DoubleUNet.ipynb : work result  
   
   
-### Require an amendments(8.5)
+### Require an amendments(Aug 5)
 ---
 1. I can't figure out input/output ***tensor size*** when using a class or user-difined function with input and output.  
 2. So, It's hard to generate DoubleUNet model  
