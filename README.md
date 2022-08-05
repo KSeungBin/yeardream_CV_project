@@ -5,11 +5,14 @@
     
 ### Context
 ---
+***1. train image / label image***
+
 <img src = "https://user-images.githubusercontent.com/90584177/182973699-7b273eda-103f-49a4-8889-dafc4d89979b.jpg" alt="train image" style="width:300px;"/> <img src = "https://user-images.githubusercontent.com/90584177/182973752-e04a931e-560b-4562-9525-8de4b89e3b23.png" alt="train image" style="width:300px;"/>
 
-- class
+
+***2. class***
     - 1 : air         (RED)
-    - 2 : background  (BLACK)
+    - 0 : background  (BLACK)
       
   
       
