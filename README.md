@@ -4,8 +4,9 @@
 
 ### Context
 ---
-![train image](https://user-images.githubusercontent.com/90584177/182973699-7b273eda-103f-49a4-8889-dafc4d89979b.jpg)
-![label](https://user-images.githubusercontent.com/90584177/182973752-e04a931e-560b-4562-9525-8de4b89e3b23.png)  
+<img src = "https://user-images.githubusercontent.com/90584177/182973699-7b273eda-103f-49a4-8889-dafc4d89979b.jpg" alt="train image" style="width:100px;"/>
+<img src = "https://user-images.githubusercontent.com/90584177/182973752-e04a931e-560b-4562-9525-8de4b89e3b23.png" alt="train image" style="width:100px;"/>
+
 - class
     - 1 : air
     - 2 : background
@@ -23,7 +24,7 @@ test(image+label)|9|-
 
 ### Require an amendments
 ---
-1. I can't figure out input/output <span style = 'background-color: #fff561'>tensor size</span> when using a class or user-difined function with input and output.
+1. I can't figure out input/output <span style = 'background-color: #fff5b1'>tensor size</span> when using a class or user-difined function with input and output.
 2. So, It's hard to generate DoubleUNet model
      - fine tune U-Net
      - get the gradient of loss function twice
