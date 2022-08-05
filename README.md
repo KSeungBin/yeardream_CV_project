@@ -37,7 +37,7 @@ test(image+label)|9|-
 - [ ] DoubleUNet.ipynb : work result  
   
   
-### Require an amendments
+### Require an amendments(8.5)
 ---
 1. I can't figure out input/output ***tensor size*** when using a class or user-difined function with input and output.  
 2. So, It's hard to generate DoubleUNet model  
@@ -46,3 +46,8 @@ test(image+label)|9|-
 3. I wanted to implement dice loss and BCE Loss function simultaneously in 'UNet_metric' class,      
    but only succeed in implementing dice loss function  
 4. For the reasons above, training code doesn't work.  
+
+
+
+### Supplements and Amendments of Code
+---
