@@ -1,5 +1,7 @@
 # 🪄 CV Track : Deep Learning Project
-- Segmentation X-Ray medical images using custom U-Net model(DoubleUNet)
+```diff
++ Segmentation X-Ray medical images using custom U-Net model(DoubleUNet)
+```
   
   
     
