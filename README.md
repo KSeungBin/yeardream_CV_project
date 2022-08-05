@@ -31,8 +31,9 @@ test(image+label)|9|-
 
 ***2. Overview of files***
 - [x] DoubleUNet.py : Define custom U-Net model  
-- [x] unet(elastic_deformation).ipynb : live lecture material  
-- [x] semantic_segmentation_multi_class.ipynb : online course material  
+- [x] unet(elastic_deformation).ipynb : live lecture material -> Elastic deformations for data augmentation 
+- [x] semantic_segmentation_multi_class.ipynb : online course material -> CT reconstruction video segmentation
+       - details: <https://github.com/KSeungBin/TIL/tree/main/cv_exercise/2.%20semantic%20segmentation>
 - [ ] DoubleUNet.ipynb : work result  
   
   
