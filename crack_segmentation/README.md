@@ -48,6 +48,6 @@ $ pip install segmentation-models-pytorch
 
 ## 4. Launch
 To run a Flask server use this shortcode: 'python app.py'  
-<img width="80%" src="https://user-images.githubusercontent.com/67961082/197527668-db47fc43-8116-4fed-9b12-59ac1654d0c2.mp4"/>
+<img width="80%" src="https://user-images.githubusercontent.com/90584177/198204367-5b7c8eba-7295-433c-802c-59ee2ef86aa7.gif"/>
 
 ## 5. Inspirators
