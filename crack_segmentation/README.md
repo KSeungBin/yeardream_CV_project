@@ -37,7 +37,6 @@ Project is created with:
   * Flask
 
 ## 3. Setup
-```
 To run this project, install it locally:
 ```
 $ pip install -U Werkzeug
