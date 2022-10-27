@@ -15,8 +15,19 @@ It analyzes the images taken from drone to diagnose cracks of 0.1mm, and builds 
 
 ## 1. Project Description
 ### ***Features***
-
-### ***To do***
+- We use UNet++, DeepLabV3+, HRNetV2 for binary class segmentation.
+  - 0: background
+  - 1: crack
+- Training models for crack segmentation on Crack500, CrackForest, DeepCrack datasets.
+- We implemented 3 optimizers [`adam`, `adamw`, `adamp`] and 2 schedulers [`cosine annealing`, `reducelr`].   
+  If you want to use other optimizer&scheduler, edit `configure_optimizers` function in `models.py`.   
+  Argument `monitor` is essential when you pick reducelr as scheduler.  
+- Our model calculate crack width by multiplying the distance between the `skeleton` and the nearest `canny edge` by 2. 
+  - Visualization: point on skeleton & point on nearest edge / maximum crack width
+- Our model generate and visualize bounding boxes for each contour. Also, it calculate the number of crack pixels in each of the bounding boxes.
+### ***TODOs***
+- [ ] Serving PyTorch models with `TorchServe` instead of Flask.
+- [ ] Design and Implementation of Advanced Crack Width Detection System
 
 
 ## 2. Technologies
@@ -47,7 +58,8 @@ $ pip install segmentation-models-pytorch
 ```
 
 ## 4. Launch
-To run a Flask server use this shortcode: 'python app.py'  
-https://user-images.githubusercontent.com/67961082/197527668-db47fc43-8116-4fed-9b12-59ac1654d0c2.mp4
+To run a Flask server use this shortcode: `python app.py`  
+<img width="80%" src="https://user-images.githubusercontent.com/90584177/198204367-5b7c8eba-7295-433c-802c-59ee2ef86aa7.gif"/>
 
 ## 5. Inspirators
+This project is based on 'PyTorch-Lightning template for semantic segmentation' from https://github.com/GunwooHan/PyTorch-Lightning_Template_for_Semantic_Segmentation
