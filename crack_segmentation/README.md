@@ -5,7 +5,6 @@ It analyzes the images taken from drone to diagnose cracks of 0.1mm, and builds 
 
 
 ## 0. Table of contents
----
  [AI Crack Diagnosis and Length Measurement](#ai-crack-diagnosis-and-length-measurement)  
    [Table of contents](#-0-table-of-contents)  
    [Project Description](#-1-project-description)  
@@ -15,14 +14,12 @@ It analyzes the images taken from drone to diagnose cracks of 0.1mm, and builds 
    [Inspirators](#-5-inspirators)  
 
 ## 1. Project Description
----
 ### ***Features***
 
 ### ***To do***
 
 
 ## 2. Technologies
----
 Project is created with:
 * Language
   * Python version: 3.9.10
@@ -40,7 +37,7 @@ Project is created with:
   * Flask
 
 ## 3. Setup
----
+```
 To run this project, install it locally:
 ```
 $ pip install -U Werkzeug
@@ -51,9 +48,7 @@ $ pip install segmentation-models-pytorch
 ```
 
 ## 4. Launch
----
 To run a Flask server use this shortcode: 'python app.py'  
 https://user-images.githubusercontent.com/67961082/197527668-db47fc43-8116-4fed-9b12-59ac1654d0c2.mp4
 
 ## 5. Inspirators
----
