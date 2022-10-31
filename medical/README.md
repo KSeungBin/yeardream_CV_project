@@ -1,4 +1,4 @@
-# 🪄 CV Track : Deep Learning Project
+# CV Track : Deep Learning Project
 ```diff
 + Segmentation X-Ray medical images using custom U-Net model(DoubleUNet)
 ```
@@ -33,13 +33,13 @@ test(image+label)|9|-
 
 ***2. Overview of files***
 - [x] DoubleUNet.py : Define custom U-Net model  
-- [x] unet(elastic_deformation).ipynb : live lecture material -> Elastic deformations for data augmentation 
-- [x] semantic_segmentation_multi_class.ipynb : online course material -> CT reconstruction video segmentation  
+- [x] unet(elastic_deformation).ipynb : Elastic deformations for data augmentation 
+- [x] semantic_segmentation_multi_class.ipynb : CT reconstruction video segmentation  
        - details: <https://github.com/KSeungBin/TIL/tree/main/cv_exercise/2.%20semantic%20segmentation>
 - [ ] DoubleUNet.ipynb : work result  
   
   
-### Require an amendments(Aug 5)
+### TODO's(Aug 5)
 ---
 1. I can't figure out input/output ***tensor size*** when using a class or user-difined function with input and output.  
 2. So, It's hard to generate DoubleUNet model  
@@ -49,7 +49,3 @@ test(image+label)|9|-
    but only succeed in implementing dice loss function  
 4. For the reasons above, training code doesn't work.  
 
-
-
-### Supplements and Amendments of Code
----
