@@ -63,4 +63,5 @@ To run a Flask server use this shortcode: `python app.py`
 <img width="80%" src="https://user-images.githubusercontent.com/90584177/198204367-5b7c8eba-7295-433c-802c-59ee2ef86aa7.gif"/>
 
 ## 5. Inspirators
-This project is based on 'PyTorch-Lightning template for semantic segmentation' from https://github.com/GunwooHan/PyTorch-Lightning_Template_for_Semantic_Segmentation
+This project is based on 'PyTorch-Lightning template for semantic segmentation'     
+from https://github.com/GunwooHan/PyTorch-Lightning_Template_for_Semantic_Segmentation  
