@@ -24,7 +24,8 @@ It analyzes the images taken from drone to diagnose cracks of 0.1mm, and builds 
   Argument `monitor` is essential when you pick reducelr as scheduler.  
 - Our model calculate crack width by multiplying the distance between the `skeleton` and the nearest `canny edge` by 2. 
   - Visualization: point on skeleton & point on nearest edge / maximum crack width
-- Our model generate and visualize bounding boxes for each contour. Also, it calculate the number of crack pixels in each of the bounding boxes.
+- Our model generate and visualize bounding boxes for each contour.   
+  Also, it calculate the number of crack pixels in each of the bounding boxes.  
 ### ***TODOs***
 - [ ] Serving PyTorch models with `TorchServe` instead of Flask.
 - [ ] Design and Implementation of Advanced Crack Width Detection System
@@ -62,4 +63,5 @@ To run a Flask server use this shortcode: `python app.py`
 <img width="80%" src="https://user-images.githubusercontent.com/90584177/198204367-5b7c8eba-7295-433c-802c-59ee2ef86aa7.gif"/>
 
 ## 5. Inspirators
-This project is based on 'PyTorch-Lightning template for semantic segmentation' from https://github.com/GunwooHan/PyTorch-Lightning_Template_for_Semantic_Segmentation
+This project is based on 'PyTorch-Lightning template for semantic segmentation'     
+from https://github.com/GunwooHan/PyTorch-Lightning_Template_for_Semantic_Segmentation  
